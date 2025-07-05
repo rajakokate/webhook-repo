@@ -1,0 +1,32 @@
+/* webhooklogs.css */
+
+.webhook-container {
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .webhook-heading {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  
+  .webhook-log-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .webhook-log-item {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    border-left: 3px solid #007bff;
+    background-color: #f1f1f1;
+  }
+  
+  .webhook-empty {
+    font-style: italic;
+    color: #555;
+  }
+  
