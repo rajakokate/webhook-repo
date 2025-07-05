@@ -15,9 +15,6 @@ mongo_url = os.getenv("MONGO_URL")
 app = Flask(__name__)
 CORS(app)
 
-#This first URL has DNS issue
-# MONGO_URI = "mongodb+srv://rajakokate:vaPtkdtl3syWTWFo@cluster0.yh1ip.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-# MONGO_URI = "mongodb://rajakokate:vaPtkdtl3syWTWFo@cluster0-shard-00-00.yh1ip.mongodb.net:27017,cluster0-shard-00-01.yh1ip.mongodb.net:27017,cluster0-shard-00-02.yh1ip.mongodb.net:27017/?ssl=true&replicaSet=atlas-duwtzl-shard-0&authSource=admin&retryWrites=true&w=majority"
 
 
 # Mongodb connection
